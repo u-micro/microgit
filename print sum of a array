@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int a[100],b=0,i;
+  for(i=0;i<5;i++)
+  {
+    scanf("%d",&a[i]);
+  }
+  for(i=0;i<5;i++)
+  {
+    b=b+a[i];
+  } 
+   printf("sum is :%d",b);
+   return 0; 
+ }
+ 
