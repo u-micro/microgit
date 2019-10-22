@@ -8,9 +8,9 @@ int main()
   }
   for(i=0;i<5;i++)
   {
-    b=b+a[i];
+    b=b-a[i];
   } 
-   printf("sum is :%d",b);
+   printf("diffrence is :%d",b);
    return 0; 
  }
  
